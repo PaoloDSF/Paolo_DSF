@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- ==========================================
+         INFORMACIÓN GENERAL
+    =========================================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paolo De Souza | Portfolio</title>
+
+    <meta name="description"
+        content="Portfolio profesional de Paolo Ezio De Souza Ferreyra Romaní, estudiante de Ingeniería Informática de la PUCP y desarrollador web.">
+
+    <meta name="keywords"
+        content="Portfolio, Paolo De Souza, PUCP, Ingeniería Informática, HTML, CSS, JavaScript, Python">
+
+    <meta name="author"
+        content="Paolo Ezio De Souza Ferreyra Romaní">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+                    LOADER
+    =========================================== -->
+
+    <div id="loader">
+<!--
+<div id="loader">
+    <div class="loader-circle"></div>
+</div>
+-->
+
+        <div class="loader-circle"></div>
+
+    </div>
+
+    <!-- ==========================================
+                    HEADER
+    =========================================== -->
+
+    <header id="header">
+
+        <div class="container">
+
+            <nav class="navbar">
+
+                <a href="#home" class="logo">
+
+                    Paolo<span>.</span>
+
+                </a>
+
+                <ul class="nav-menu">
+
+                    <li>
+                        <a href="#home">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">Sobre mí</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">Tecnologías</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">Proyectos</a>
+                    </li>
+
+                    <li>
+                        <a href="#achievements">Logros</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+
+                </ul>
+
+                <div class="header-buttons">
+
+                    <button id="theme-toggle"
+                        aria-label="Cambiar tema">
+
+                        <i class="fa-solid fa-moon"></i>
+
+                    </button>
+
+                    <button id="menu-toggle"
+                        aria-label="Abrir menú">
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ==========================================
+                    CONTENIDO
+    =========================================== -->
+
+    <main>
+        <!-- ==========================================
+                    HERO
+        =========================================== -->
+
+        <section id="home" class="hero">
+
+            <div class="container hero-container">
+
+                <!-- TEXTO -->
+
+                <div class="hero-content">
+
+                    <span class="hero-subtitle">
+
+                        PORTFOLIO PROFESIONAL
+
+                    </span>
+
+                    <h1>
+
+                        Paolo Ezio
+                        <br>
+
+                        <span>
+
+                            De Souza Ferreyra Romaní
+
+                        </span>
+
+                    </h1>
+
+                    <h2>
+
+                        Estudiante de Ingeniería Informática
+
+                    </h2>
+
+                    <p>
+
+                        Soy estudiante de Ingeniería Informática en la
+                        Pontificia Universidad Católica del Perú (PUCP),
+                        apasionado por el desarrollo web, la programación,
+                        el análisis de datos y la creación de soluciones
+                        tecnológicas que generen impacto.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="assets/docs/CV_Paolo.pdf"
+                            class="btn btn-primary"
+                            download>
+
+                            <i class="fa-solid fa-download"></i>
+
+                            Descargar CV
+
+                        </a>
+
+                        <a href="#projects"
+                            class="btn btn-secondary">
+
+                            <i class="fa-solid fa-code"></i>
+
+                            Ver proyectos
+
+                        </a>
+
+                    </div>
+
+                    <div class="hero-social">
+
+                        <a href="#" aria-label="GitHub">
+
+                            <i class="fab fa-github"></i>
+
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+
+                        <a href="mailto:correo@correo.com"
+                            aria-label="Correo">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- FOTO -->
+
+                <div class="hero-image">
+
+                    <div class="image-frame">
+
+                        <img src="assets/images/profile.jpg"
+                            alt="Fotografía de Paolo De Souza">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                ESTADÍSTICAS
+        =========================================== -->
+
+        <section class="statistics">
+
+            <div class="container">
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <h2>
+
+                            5+
+
+                        </h2>
+
+                        <p>
+
+                            Certificaciones
+
+                        </p>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h2>
+
+                            2
+
+                        </h2>
+
+                        <p>
+
+                            Proyectos principales
+
+                        </p>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h2>
+
+                            3
+
+                        </h2>
+
+                        <p>
+
+                            Idiomas
+
+                        </p>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h2>
+
+                            2025
+
+                        </h2>
+
+                        <p>
+
+                            Inicio en PUCP
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                SOBRE MÍ
+        =========================================== -->
+
+        <section id="about">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>
+
+                        01
+
+                    </span>
+
+                    <h2>
+
+                        Sobre mí
+
+                    </h2>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+
+                            Mi principal interés es desarrollar
+                            software que aporte soluciones reales
+                            mediante el uso de tecnologías modernas.
+
+                        </p>
+
+                        <p>
+
+                            Me encuentro desarrollando el sitio web
+                            institucional del Colegio San Agustín
+                            de Naranjal, aplicando buenas prácticas
+                            de diseño web, accesibilidad y
+                            programación con HTML, CSS y JavaScript.
+
+                        </p>
+
+                        <p>
+
+                            Disfruto aprender continuamente,
+                            participar en proyectos y fortalecer
+                            mis conocimientos en desarrollo web,
+                            inteligencia artificial y análisis de
+                            datos.
+
+                        </p>
+
+                    </div>
+
+                    <div class="about-info">
+
+                        <div class="info-item">
+
+                            <strong>Nombre</strong>
+
+                            <span>
+
+                                Paolo Ezio De Souza Ferreyra Romaní
+
+                            </span>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <strong>Universidad</strong>
+
+                            <span>
+
+                                Pontificia Universidad Católica del Perú
+
+                            </span>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <strong>Carrera</strong>
+
+                            <span>
+
+                                Ingeniería Informática
+
+                            </span>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <strong>Idiomas</strong>
+
+                            <span>
+
+                                Español • Inglés • Francés
+
+                            </span>
+
+                        </div>
+
+                        <div class="info-item">
+
+                            <strong>Ubicación</strong>
+
+                            <span>
+
+                                Lima, Perú
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+            CONTINÚA EN LA SIGUIENTE ENTREGA
+            (Tecnologías, Formación y Experiencia)
+        =========================================== -->
+        <!-- ==========================================
+                    TECNOLOGÍAS
+        =========================================== -->
+
+        <section id="skills">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>02</span>
+
+                    <h2>Tecnologías</h2>
+
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-html5"></i>
+
+                        <h3>HTML5</h3>
+
+                        <div class="progress">
+
+                            <div class="progress-bar html"></div>
+
+                        </div>
+
+                        <span>Avanzado</span>
+
+                    </div>
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-css3-alt"></i>
+
+                        <h3>CSS3</h3>
+
+                        <div class="progress">
+
+                            <div class="progress-bar css"></div>
+
+                        </div>
+
+                        <span>Intermedio - Avanzado</span>
+
+                    </div>
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-js"></i>
+
+                        <h3>JavaScript</h3>
+
+                        <div class="progress">
+
+                            <div class="progress-bar js"></div>
+
+                        </div>
+
+                        <span>Intermedio</span>
+
+                    </div>
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-python"></i>
+
+                        <h3>Python</h3>
+
+                        <div class="progress">
+
+                            <div class="progress-bar python"></div>
+
+                        </div>
+
+                        <span>Intermedio</span>
+
+                    </div>
+
+                    <div class="skill-card">
+
+                        <i class="fa-solid fa-chart-column"></i>
+
+                        <h3>Power BI</h3>
+
+                        <div class="progress">
+
+                            <div class="progress-bar powerbi"></div>
+
+                        </div>
+
+                        <span>Intermedio</span>
+
+                    </div>
+
+                    <div class="skill-card">
+
+                        <i class="fa-brands fa-git-alt"></i>
+
+                        <h3>Git & GitHub</h3>
+
+                        <div class="progress">
+
+                            <div class="progress-bar git"></div>
+
+                        </div>
+
+                        <span>Intermedio</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                FORMACIÓN ACADÉMICA
+        =========================================== -->
+
+        <section id="education">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>03</span>
+
+                    <h2>Formación Académica</h2>
+
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-year">
+
+                                2025 - Actualidad
+
+                            </span>
+
+                            <h3>
+
+                                Ingeniería Informática
+
+                            </h3>
+
+                            <h4>
+
+                                Pontificia Universidad Católica del Perú
+
+                            </h4>
+
+                            <p>
+
+                                Formación en programación,
+                                algoritmos, estructuras de datos,
+                                bases de datos, tecnologías de la
+				información y tecnologías emergentes.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-year">
+
+                                Educación Secundaria
+
+                            </span>
+
+                            <h3>
+
+                                Programa del Diploma IB
+
+                            </h3>
+
+                            <p>
+
+                                Formación basada en pensamiento
+                                crítico, investigación y resolución
+                                de problemas.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                CERTIFICACIONES
+        =========================================== -->
+
+        <section id="certifications">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>04</span>
+
+                    <h2>Certificaciones</h2>
+
+                </div>
+
+                <div class="certification-grid">
+
+                    <div class="certificate-card">
+
+                        <i class="fa-solid fa-certificate"></i>
+
+                        <h3>Digital Awareness</h3>
+
+                        <p>Cisco Networking Academy</p>
+
+                    </div>
+
+                    <div class="certificate-card">
+
+                        <i class="fa-solid fa-certificate"></i>
+
+                        <h3>Networking Basics</h3>
+
+                        <p>Cisco Networking Academy</p>
+
+                    </div>
+
+                    <div class="certificate-card">
+
+                        <i class="fa-solid fa-certificate"></i>
+
+                        <h3>Python Essentials I</h3>
+
+                        <p>Cisco Networking Academy</p>
+
+                    </div>
+
+                    <div class="certificate-card">
+
+                        <i class="fa-solid fa-chart-column"></i>
+
+                        <h3>Power BI</h3>
+
+                        <p>Especialización</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                    EXPERIENCIA
+        =========================================== -->
+
+        <section id="experience">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>05</span>
+
+                    <h2>Experiencia</h2>
+
+                </div>
+
+                <div class="experience-grid">
+
+                    <article class="experience-card">
+
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                        <h3>
+
+                            Desarrollo Web
+
+                        </h3>
+
+                        <h4>
+
+                            Colegio San Agustín de Naranjal
+
+                        </h4>
+
+                        <p>
+
+                            Desarrollo del sitio web institucional
+                            utilizando HTML5, CSS3 y JavaScript,
+                            implementando un diseño moderno,
+                            adaptable a dispositivos móviles y
+                            optimizado para una mejor experiencia
+                            de usuario.
+
+                        </p>
+
+                    </article>
+
+                    <article class="experience-card">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        <h3>
+
+                            Proyectos Personales
+
+                        </h3>
+
+                        <p>
+
+                            Desarrollo continuo de aplicaciones,
+                            algoritmos y proyectos académicos para
+                            fortalecer habilidades en programación,
+                            desarrollo web y análisis de datos.
+
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+            CONTINÚA EN LA SIGUIENTE ENTREGA
+
+            Proyectos
+            Logros
+            Contacto
+            Footer
+        =========================================== -->
+        <!-- ==========================================
+                    PROYECTOS
+        =========================================== -->
+
+        <section id="projects">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>06</span>
+
+                    <h2>Proyectos</h2>
+
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <img src="assets/projects/colegio.jpg"
+                            alt="Colegio San Agustín de Naranjal">
+
+                        <div class="project-content">
+
+                            <h3>
+
+                                Sitio Web Institucional
+
+                            </h3>
+
+                            <h4>
+
+                                Colegio San Agustín de Naranjal
+
+                            </h4>
+
+                            <p>
+
+                                Desarrollo completo de un sitio web
+                                institucional moderno, responsive y
+                                optimizado para GitHub Pages.
+
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>HTML5</span>
+
+                                <span>CSS3</span>
+
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <a href="#"
+                                class="project-button">
+
+                                Ver proyecto
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <img src="assets/projects/portfolio.jpg"
+                            alt="Portfolio Personal">
+
+                        <div class="project-content">
+
+                            <h3>
+
+                                Portfolio Personal
+
+                            </h3>
+
+                            <p>
+
+                                Desarrollo de este portafolio
+                                profesional con diseño responsive,
+                                animaciones y modo oscuro.
+
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>HTML5</span>
+
+                                <span>CSS3</span>
+
+                                <span>JavaScript</span>
+
+                            </div>
+
+                            <a href="#"
+                                class="project-button">
+
+                                Ver proyecto
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                    LOGROS
+        =========================================== -->
+
+        <section id="achievements">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>07</span>
+
+                    <h2>Logros</h2>
+
+                </div>
+
+                <div class="achievement-grid">
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-medal"></i>
+
+                        <h3>
+
+                            MakeX Robotics Competition
+
+                        </h3>
+
+                        <p>
+
+                            Segundo lugar en Sudamérica
+                            (Categoría Explorer).
+
+                        </p>
+
+                    </div>
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-robot"></i>
+
+                        <h3>
+
+                            Hackathon Regional
+
+                        </h3>
+
+                        <p>
+
+                            Participación en Hackathon
+                            Regional de Robótica.
+
+                        </p>
+
+                    </div>
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                        <h3>
+
+                            Programa del Diploma IB
+
+                        </h3>
+
+                        <p>
+
+                            International Baccalaureate.
+
+                        </p>
+
+                    </div>
+
+                    <div class="achievement-card">
+
+                        <i class="fa-solid fa-award"></i>
+
+                        <h3>
+
+                            Formación Continua
+
+                        </h3>
+
+                        <p>
+
+                            Certificaciones en programación,
+                            desarrollo web y análisis de datos.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==========================================
+                    CONTACTO
+        =========================================== -->
+
+        <section id="contact">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>08</span>
+
+                    <h2>Contacto</h2>
+
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+
+                        <h3>
+
+                            ¿Hablamos?
+
+                        </h3>
+
+                        <p>
+
+                            Estoy abierto a colaborar en proyectos,
+                            prácticas profesionales y nuevas
+                            oportunidades de aprendizaje.
+
+                        </p>
+
+                        <div class="contact-item">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <span>
+
+                                tu_correo@ejemplo.com
+
+                            </span>
+
+                        </div>
+
+                        <div class="contact-item">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <span>
+
+                                Lima, Perú
+
+                            </span>
+
+                        </div>
+
+                        <div class="contact-item">
+
+                            <i class="fa-brands fa-linkedin"></i>
+
+                            <span>
+
+                                LinkedIn
+
+                            </span>
+
+                        </div>
+
+                        <div class="contact-item">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            <span>
+
+                                GitHub
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <form class="contact-form">
+
+                        <input
+                            type="text"
+                            placeholder="Nombre">
+
+                        <input
+                            type="email"
+                            placeholder="Correo electrónico">
+
+                        <textarea
+                            rows="6"
+                            placeholder="Escribe tu mensaje"></textarea>
+
+                        <button
+                            type="submit">
+
+                            Enviar mensaje
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+                    FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <h2>
+
+                Paolo<span>.</span>
+
+            </h2>
+
+            <p>
+
+                Estudiante de Ingeniería Informática ·
+                Desarrollador Web
+
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="mailto:tu_correo@ejemplo.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+            <a href="assets/docs/CV_Paolo.pdf"
+                download
+                class="footer-cv">
+
+                Descargar CV
+
+            </a>
+
+            <p class="copyright">
+
+                © 2026 Paolo Ezio De Souza Ferreyra Romaní.
+                Todos los derechos reservados.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ==========================================
+                JAVASCRIPT
+    =========================================== -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
